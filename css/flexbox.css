@@ -1,0 +1,49 @@
+.headerPrincipal .container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.headerPrincipal-nav{
+ display:flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /*  espacio al rededor de los elementos */
+    width: 70%;
+    margin-right: 5%;
+
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list { 
+  display: flex;
+  flex-direction: column; /* funcion coloca lo elementos unos debajo de otro */
+  height: 250px; /* para limitar las columnas a un tamaño especifico */
+  flex-wrap: wrap; /* cuando llegue a 250 px quebrar y empezar al lado */
+}
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
